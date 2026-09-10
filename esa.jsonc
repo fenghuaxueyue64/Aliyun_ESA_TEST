@@ -1,0 +1,12 @@
+// 阿里云 ESA 部署配置
+// 纯静态站点：构建产物目录为 dist，无边缘函数
+{
+  "version": "1.0",
+  "build": {
+    "command": "npm run build",
+    "outputDir": "dist"
+  },
+  "assets": {
+    "directory": "dist"
+  }
+}
